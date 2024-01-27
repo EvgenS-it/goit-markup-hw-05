@@ -594,13 +594,14 @@ p {
   border: none;
   border-radius: 4px;
   background-color: #4d5ae5;
+  cursor: pointer;
   display: inline-flex;
+  min-width: 165px;
   height: 40px;
   padding-left: 24px;
   padding-right: 24px;
   justify-content: center;
   align-items: center;
-  gap: 16px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -611,6 +612,7 @@ p {
 
 .footer-icon-end {
   fill: #fff;
+  margin-left: 16px;
 }
 
 /** ============= FOOTER END =============  */
