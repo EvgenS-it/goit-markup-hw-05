@@ -823,7 +823,7 @@ p {
   margin-left: 3px;
 }
 
-.check-input:checked + .check-text span {
+.check-input:checked + .check-text .check-icon-wrap {
   background-color: rgba(64, 75, 191, 1);
   border: none;
   fill: #f4f4fd;
