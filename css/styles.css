@@ -546,22 +546,21 @@ p {
 .footer-form-container {
 }
 
-.footer-form {
-}
-
-.footer-form-label {
+.footer-form-title {
   color: #fff;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
-  display: block;
   margin-bottom: 16px;
 }
 
-.footer-form-wrap {
+.footer-form {
   display: flex;
   gap: 24px;
+}
+
+.footer-form-label {
 }
 
 .footer-input {
