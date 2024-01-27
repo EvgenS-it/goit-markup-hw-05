@@ -472,9 +472,28 @@
             </li>
           </ul>
         </div>
+        <form class="footer-form">
+          <label for="email" class="footer-form-label">Subscribe</label>
+          <div class="footer-form-wrap">
+            <input
+              type="email"
+              name="footer-email"
+              id="email"
+              class="footer-input"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="footer-form-btn">
+              Subscribe
+              <svg width="24" height="24" class="footer-icon-end">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
       </div>
     </footer>
 
+    <!-- Modal form -->
     <div class="backdrop is-open">
       <div class="modal">
         <button type="button" class="modal-close-btn">
@@ -540,7 +559,6 @@
               placeholder="Text input"
             ></textarea>
           </div>
-
           <div class="modal-field">
             <input
               type="checkbox"
@@ -558,7 +576,6 @@
               <a href="">Privacy Policy</a></label
             >
           </div>
-
           <button type="submit" class="modal-send-btn">Send</button>
         </form>
       </div>
