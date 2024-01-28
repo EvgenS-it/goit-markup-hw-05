@@ -794,7 +794,7 @@ p {
   font-weight: 400;
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.04em;
-  display: inline-flex;
+  /* display: inline-flex; */
 }
 
 .check-icon-wrap {
@@ -818,8 +818,8 @@ p {
   line-height: 1.33;
   letter-spacing: 0.04em;
   text-decoration-line: underline;
-  display: block;
-  margin-left: 3px;
+  /* display: block; */
+  /* margin-left: 3px; */
 }
 
 .check-input:checked + .check-text .check-icon-wrap {
